@@ -21,6 +21,6 @@ from accounts import urls as accounts_urls
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/scheduler/',include("scheduler.urls")),
+    # path('api/scheduler/',include("scheduler.urls")),
     path("api/accounts/", include(accounts_urls)),
 ]
