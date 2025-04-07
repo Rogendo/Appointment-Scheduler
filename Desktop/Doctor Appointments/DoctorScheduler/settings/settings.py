@@ -76,12 +76,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'scheduler', 
-    # 'allauth',
-    # 'allauth.account',
-    # 'allauth.socialaccount',
-    # 'allauth.socialaccount.providers.google', 
-    # 'allauth.socialaccount.providers.github', 
+    # 'scheduler', 
     'rest_framework',
 ]
 
@@ -111,6 +106,7 @@ SPECTACULAR_SETTINGS = {
 }
 
 ROOT_URLCONF = 'DoctorScheduler.urls'
+AUTH_USER_MODEL = "accounts.CustomUser"
 
 TEMPLATES = [
     {
