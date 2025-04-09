@@ -1,0 +1,12 @@
+tests/
+/tests
+/tests/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.egg-info/
+*.egg
+*.log
+
+*.env
