@@ -85,7 +85,7 @@ The following instructions were tested on the Windows and Linux with Python 3.11
 
 ```
 
-git clone https://github.com/Rogendo/Appointment-Scheduler/.git
+git clone https://github.com/Rogendo/Appointment-Scheduler.git
 
 ```
 
